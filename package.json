@@ -1,0 +1,33 @@
+{
+  "name": "ai-models-api-documentation",
+  "version": "1.0.0",
+  "description": "Comprehensive AI Models & API Documentation - Technical Reference",
+  "scripts": {
+    "dev": "cd app && npm run dev",
+    "build": "cd app && npm run build",
+    "start": "cd app && npm start",
+    "lint": "cd app && npm run lint",
+    "install": "cd app && npm install"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaryOcean428/ai-models-api-docs.git"
+  },
+  "keywords": [
+    "ai",
+    "api",
+    "documentation",
+    "openai",
+    "anthropic",
+    "google",
+    "azure",
+    "aws",
+    "nextjs"
+  ],
+  "author": "GaryOcean428",
+  "license": "MIT"
+}
