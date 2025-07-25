@@ -413,147 +413,190 @@
 
 ### Gemini 2.5 Pro
 - **Model Code**: `gemini-2.5-pro`
-- **Last Updated**: December 2024
-- **Description**: Advanced multimodal model with enhanced reasoning and multimodal capabilities
-- **Inputs**: Text, Images, Audio, Video, Documents
+- **Last Updated**: June 2025
+- **Description**: State-of-the-art model for complex reasoning in code, math, STEM, and analysis of large datasets.
+- **Inputs**: Audio, images, video, text, PDF
 - **Outputs**: Text
-- **Input Token Limit**: 2,000,000 tokens
-- **Output Token Limit**: 8,192 tokens
-- **Key Features**: Enhanced reasoning, multimodal capabilities, large context window, advanced processing
+- **Input Token Limit**: 1,048,576 tokens
+- **Output Token Limit**: 65,536 tokens
+- **Key Features**: Structured outputs, Caching, Function calling, Code execution, Search grounding, Image/Audio generation, Live API, Thinking
 - **Model Card**: https://ai.google.dev/models/gemini-2.5-pro
 
 ### Gemini 2.5 Flash
-- **Model Code**: `gemini-2.5-flash`
-- **Last Updated**: December 2024
-- **Description**: Fast multimodal model optimized for speed with improved performance and multimodal capabilities
-- **Inputs**: Text, Images, Audio, Video, Documents
+- **Model Code**: `models/gemini-2.5-flash`
+- **Last Updated**: June 2025
+- **Description**: Best price-performance model for large-scale, low-latency, high-volume tasks.
+- **Inputs**: Text, images, video, audio
 - **Outputs**: Text
-- **Input Token Limit**: 1,000,000 tokens
-- **Output Token Limit**: 8,192 tokens
-- **Key Features**: Fast inference, multimodal, cost-effective, improved performance
+- **Input Token Limit**: 1,048,576 tokens
+- **Output Token Limit**: 65,536 tokens
+- **Key Features**: Audio generation, Caching, Code execution, Function calling, Image generation, Search grounding, Structured outputs, Batch Mode
 - **Model Card**: https://ai.google.dev/models/gemini-2.5-flash
 
 ### Gemini 2.5 Flash-Lite
-- **Model Code**: `gemini-2.5-flash-lite`
-- **Last Updated**: December 2024
-- **Description**: Lightweight version optimized for speed and efficiency
-- **Inputs**: Text, Images
+- **Model Code**: `models/gemini-2.5-flash-lite`
+- **Last Updated**: July 2025
+- **Description**: Cost-efficient and high-throughput version of Gemini 2.5 Flash.
+- **Inputs**: Text, image, video, audio, PDF
 - **Outputs**: Text
-- **Input Token Limit**: 1,000,000 tokens
-- **Output Token Limit**: 8,192 tokens
-- **Key Features**: Ultra-fast, lightweight, cost-optimized, basic multimodal
+- **Input Token Limit**: 1,048,576 tokens
+- **Output Token Limit**: 65,536 tokens
+- **Key Features**: Structured outputs, Caching, Function calling, Code execution, URL Context, Search grounding, Image/Audio generation, Live API
 - **Model Card**: https://ai.google.dev/models/gemini-2.5-flash-lite
 
 ### Gemini 2.5 Flash Native Audio
-- **Model Code**: `gemini-2.5-flash-native-audio`
-- **Last Updated**: December 2024
-- **Description**: Specialized for native audio processing and understanding
-- **Inputs**: Text, Audio
-- **Outputs**: Text
-- **Input Token Limit**: 1,000,000 tokens
-- **Output Token Limit**: 8,192 tokens
-- **Key Features**: Native audio processing, speech understanding, audio analysis
+- **Model Code**: `models/gemini-2.5-flash-preview-native-audio-dialog`
+- **Last Updated**: May 2025
+- **Description**: Native audio dialog model for interactive and unstructured conversational experiences.
+- **Inputs**: Audio, video, text
+- **Outputs**: Audio, text
+- **Input Token Limit**: 128,000 tokens
+- **Output Token Limit**: 8,000 tokens
+- **Key Features**: Audio generation, Caching, Code execution, Function calling, Image generation, Search grounding, Structured outputs, Tuning
 - **Model Card**: https://ai.google.dev/models/gemini-2.5-flash-native-audio
 
 ### Gemini 2.5 Flash Preview TTS
-- **Model Code**: `gemini-2.5-flash-preview-tts`
-- **Last Updated**: December 2024
-- **Description**: Preview model with text-to-speech capabilities
+- **Model Code**: `models/gemini-2.5-flash-preview-tts`
+- **Last Updated**: May 2025
+- **Description**: Price-performant text-to-speech model for podcasts and audiobooks.
 - **Inputs**: Text
-- **Outputs**: Text, Audio
-- **Input Token Limit**: 1,000,000 tokens
-- **Output Token Limit**: 8,192 tokens
-- **Key Features**: Text-to-speech, voice synthesis, preview features
+- **Outputs**: Audio
+- **Input Token Limit**: 8,000 tokens
+- **Output Token Limit**: 16,000 tokens
+- **Key Features**: Structured outputs, Caching, Tuning, Function calling, Code execution, Search, Audio gen, Live API, Thinking
 - **Model Card**: https://ai.google.dev/models/gemini-2.5-flash-preview-tts
 
 ### Gemini 2.5 Pro Preview TTS
-- **Model Code**: `gemini-2.5-pro-preview-tts`
-- **Last Updated**: December 2024
-- **Description**: Advanced preview model with enhanced TTS capabilities
-- **Inputs**: Text, Images, Audio, Video, Documents
-- **Outputs**: Text, Audio
-- **Input Token Limit**: 2,000,000 tokens
-- **Output Token Limit**: 8,192 tokens
-- **Key Features**: Advanced TTS, multimodal, high-quality voice synthesis
+- **Model Code**: `models/gemini-2.5-pro-preview-tts`
+- **Last Updated**: May 2025
+- **Description**: Most powerful text-to-speech model for high-control structured audio gen.
+- **Inputs**: Text
+- **Outputs**: Audio
+- **Input Token Limit**: 8,000 tokens
+- **Output Token Limit**: 16,000 tokens
+- **Key Features**: Structured outputs, Caching, Tuning, Function calling, Code execution, Search, Audio gen, Live API, Thinking
 - **Model Card**: https://ai.google.dev/models/gemini-2.5-pro-preview-tts
 
 ### Gemini 2.0 Flash
-- **Model Code**: `gemini-2.0-flash`
-- **Last Updated**: December 2024
-- **Description**: Fast multimodal model with tool use and code execution capabilities
-- **Inputs**: Text, Images, Audio, Video
+- **Model Code**: `models/gemini-2.0-flash`
+- **Last Updated**: Feb 2025
+- **Description**: Next-gen features with superior speed, native tool use, and a 1M token context window.
+- **Inputs**: Audio, images, video, text
 - **Outputs**: Text
-- **Input Token Limit**: 1,000,000 tokens
+- **Input Token Limit**: 1,048,576 tokens
 - **Output Token Limit**: 8,192 tokens
-- **Key Features**: Tool use, code execution, multimodal, fast inference
+- **Key Features**: Structured outputs, Caching, Tuning, Function calling, Code execution, Search, Image/Audio gen, Live API
 - **Model Card**: https://ai.google.dev/models/gemini-2.0-flash
 
 ### Gemini 2.0 Flash Preview Image Generation
-- **Model Code**: `gemini-2.0-flash-preview-image-gen`
-- **Last Updated**: December 2024
-- **Description**: Preview model with integrated image generation capabilities
-- **Inputs**: Text
-- **Outputs**: Text, Images
-- **Input Token Limit**: 1,000,000 tokens
+- **Model Code**: `models/gemini-2.0-flash-preview-image-generation`
+- **Last Updated**: May 2025
+- **Description**: Improved image generation and conversational image editing.
+- **Inputs**: Audio, images, video, text
+- **Outputs**: Text, images
+- **Input Token Limit**: 32,000 tokens
 - **Output Token Limit**: 8,192 tokens
-- **Key Features**: Image generation, text-to-image, preview features
+- **Key Features**: Structured outputs, Caching, Tuning, Function calling, Code execution, Search, Image/Audio gen, Live API
 - **Model Card**: https://ai.google.dev/models/gemini-2.0-flash-preview-image-gen
 
 ### Gemini 2.0 Flash-Lite
-- **Model Code**: `gemini-2.0-flash-lite`
-- **Last Updated**: December 2024
-- **Description**: Lightweight version of Gemini 2.0 Flash for efficient processing
-- **Inputs**: Text, Images
+- **Model Code**: `models/gemini-2.0-flash-lite`
+- **Last Updated**: Feb 2025
+- **Description**: Cost-efficient and low-latency version of Gemini 2.0 Flash.
+- **Inputs**: Audio, images, video, text
 - **Outputs**: Text
-- **Input Token Limit**: 1,000,000 tokens
+- **Input Token Limit**: 1,048,576 tokens
 - **Output Token Limit**: 8,192 tokens
-- **Key Features**: Lightweight, fast, cost-effective, basic multimodal
+- **Key Features**: Structured outputs, Caching, Tuning, Function calling, Code execution, Search, Image/Audio gen, Live API
 - **Model Card**: https://ai.google.dev/models/gemini-2.0-flash-lite
 
 ### Imagen 4
-- **Model Code**: `imagen-4`
-- **Last Updated**: December 2024
-- **Description**: Latest image generation model with improved quality and safety
-- **Inputs**: Text prompts
-- **Outputs**: High-resolution images
-- **Key Features**: High-quality image generation, improved safety, text-to-image
+- **Model Code**: `imagen-4.0-generate-preview-06-06`
+- **Last Updated**: June 2025
+- **Description**: Latest image model for highly detailed images, rich lighting, better text rendering.
+- **Inputs**: Text
+- **Outputs**: Images
+- **Input Token Limit**: 480 tokens
+- **Output Token Limit**: N/A
+- **Key Features**: High-resolution output
 - **Model Card**: https://ai.google.dev/models/imagen-4
 
 ### Imagen 3
-- **Model Code**: `imagen-3`
-- **Last Updated**: August 2024
-- **Description**: Advanced image generation model with high-quality outputs
-- **Inputs**: Text prompts
-- **Outputs**: High-resolution images
-- **Key Features**: High-quality generation, text-to-image, creative control
+- **Model Code**: `imagen-3.0-generate-002`
+- **Last Updated**: Feb 2025
+- **Description**: High-quality text-to-image model for detailed images, rich lighting.
+- **Inputs**: Text
+- **Outputs**: Images
+- **Input Token Limit**: N/A
+- **Output Token Limit**: N/A
+- **Key Features**: Fewer distracting artifacts
 - **Model Card**: https://ai.google.dev/models/imagen-3
 
 ### Veo 3 Preview
-- **Model Code**: `veo-3-preview`
-- **Last Updated**: December 2024
-- **Description**: Preview video generation model with enhanced capabilities
-- **Inputs**: Text prompts, reference images
-- **Outputs**: High-quality videos
-- **Key Features**: Video generation, text-to-video, image-to-video, preview features
+- **Model Code**: `veo-3.0-generate-preview`
+- **Last Updated**: July 2025
+- **Description**: Latest text-to-video model with integrated audio and direct camera controls.
+- **Inputs**: Text
+- **Outputs**: Video w/ audio
+- **Input Token Limit**: 1,024 tokens
+- **Output Token Limit**: N/A
+- **Key Features**: Enhanced prompt adherence
 - **Model Card**: https://ai.google.dev/models/veo-3-preview
 
 ### Veo 2
-- **Model Code**: `veo-2`
-- **Last Updated**: December 2024
-- **Description**: Advanced video generation model with improved quality and control
-- **Inputs**: Text prompts, reference images
-- **Outputs**: High-quality videos up to 4K
-- **Key Features**: 4K video generation, improved physics, better temporal consistency
+- **Model Code**: `veo-2.0-generate-001`
+- **Last Updated**: April 2025
+- **Description**: High-quality text- and image-to-video model for detailed videos.
+- **Inputs**: Text, image
+- **Outputs**: Video
+- **Input Token Limit**: N/A
+- **Output Token Limit**: N/A
+- **Key Features**: Captures artistic nuance
 - **Model Card**: https://ai.google.dev/models/veo-2
 
 ### Gemini 2.5 Flash Live
-- **Model Code**: `gemini-2.5-flash-live`
-- **Last Updated**: December 2024
-- **Description**: Real-time conversational model with live interaction capabilities
-- **Inputs**: Text, Audio, Video (live streams)
-- **Outputs**: Text, Audio
-- **Key Features**: Real-time interaction, live streaming, conversational AI
+- **Model Code**: `models/gemini-live-2.5-flash-preview`
+- **Last Updated**: June 2025
+- **Description**: Enables low-latency bidirectional voice/video interactions with Gemini.
+- **Inputs**: Audio, video, text
+- **Outputs**: Text, audio
+- **Input Token Limit**: 1,048,576 tokens
+- **Output Token Limit**: 8,192 tokens
+- **Key Features**: Structured outputs, Tuning, Function calling, Code execution, Search, Image/Audio gen, Thinking
 - **Model Card**: https://ai.google.dev/models/gemini-2.5-flash-live
+
+### Gemini 2.0 Flash Live
+- **Model Code**: `models/gemini-2.0-flash-live-001`
+- **Last Updated**: April 2025
+- **Description**: Enables low-latency bidirectional voice/video interactions with Gemini.
+- **Inputs**: Audio, video, text
+- **Outputs**: Text, audio
+- **Input Token Limit**: 1,048,576 tokens
+- **Output Token Limit**: 8,192 tokens
+- **Key Features**: Structured outputs, Tuning, Function calling, Code execution, Search, Image/Audio gen, Thinking
+- **Model Card**: https://ai.google.dev/models/gemini-2.0-flash-live
+
+### Gemini Embedding
+- **Model Code**: `gemini-embedding-001`
+- **Last Updated**: June 2025
+- **Description**: Measures relatedness of strings for applications like retrieval.
+- **Inputs**: Text
+- **Outputs**: Text embeddings
+- **Input Token Limit**: 2,048 tokens
+- **Output Token Limit**: N/A
+- **Key Features**: Code, multi-lingual support
+- **Model Card**: https://ai.google.dev/models/gemini-embedding
+
+### Text Embedding (Legacy)
+- **Model Code**: `models/text-embedding-004`
+- **Last Updated**: April 2024
+- **Description**: Legacy model for measuring relatedness of text strings.
+- **Inputs**: Text
+- **Outputs**: Text embeddings
+- **Input Token Limit**: 2,048 tokens
+- **Output Token Limit**: N/A
+- **Key Features**: Adjustable safety settings
+- **Model Card**: https://ai.google.dev/models/text-embedding
 
 ---
 
