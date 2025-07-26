@@ -46,7 +46,7 @@
 - **Status**: Active
 - **Inputs**: text, image, audio, video
 - **Outputs**: text
-- **Input Token Limit**: 1,000,000 tokens
+- **Input Token Limit**: 1,047,576 tokens
 - **Output Token Limit**: 32,768 tokens
 - **Key Features**: Enhanced reasoning, Large context window, Advanced multimodal processing, Superior problem solving, Complex task handling
 - **Model Card**: https://platform.openai.com/docs/models/gpt-4.1
@@ -58,7 +58,7 @@
 - **Status**: Active
 - **Inputs**: text, image, audio
 - **Outputs**: text
-- **Input Token Limit**: 1,000,000 tokens
+- **Input Token Limit**: 1,047,576 tokens
 - **Output Token Limit**: 32,768 tokens
 - **Key Features**: Cost-efficient, Fast processing, Balanced performance, Large context window, Multimodal capabilities
 - **Model Card**: https://platform.openai.com/docs/models/gpt-4.1-mini
