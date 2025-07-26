@@ -694,6 +694,17 @@
 - **Key Features**: Function calling, Structured outputs
 - **Model Card**: https://docs.x.ai/docs/models/grok-3-mini
 
+### Grok 3 mini fast
+- **Model Code**: `grok-3-mini-fast
+- **Last Updated**: Feb 2025
+- **Description**: Language model. Price: $0.30 - $0.50 per million tokens.
+- **Inputs**: Text, Image
+- **Outputs**: Text
+- **Input Token Limit**: 131,072 tokens
+- **Output Token Limit**: 8,192 tokens
+- **Key Features**: Function calling, Structured outputs
+- **Model Card**: https://docs.x.ai/docs/models/grok-3-mini
+
 ### Grok 3 fast
 - **Model Code**: `grok-3-fast`
 - **Last Updated**: Feb 2025
@@ -715,9 +726,7 @@ Groq provides ultra-fast inference for various language models through their spe
 - **Llama 3.1 405B**: Large context reasoning model
 - **Llama 3.1 70B**: Versatile instruction-following model
 - **Llama 3.1 8B**: Efficient model for lighter workloads
-- **Mixtral 8x7B**: Mixture of experts model
-- **Gemma 2 9B**: Google's efficient model
-- **Gemma 7B**: Lightweight alternative
+
 
 **Key Features**: Ultra-fast inference speeds, Hardware acceleration, Low latency, Cost-effective processing
 **Model Documentation**: https://console.groq.com/docs/models
